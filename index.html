@@ -4,135 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <style>
-      img {
-        height: 200px;
-        width: 400px;
-        object-fit: cover;
+      p {
+        color: black;
       }
-      video {
-        width: 400px;
-      }
-      ul {
-        list-style-type: square;
-      }
-      table,
-      td,
-      th {
-        border: 1px solid grey;
-        border-collapse: collapse;
-        padding: 5px;
-      }
-      tfoot {
-        text-align: left;
-      }
-      .product {
-        background-color: gold;
-        width: 300px;
-      }
-      .highlight {
-        background-color: yellow;
+
+      #first {
+        color: green;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
-    <img
-      src="images/RentAGirlfriend.jpg"
-      alt="Rent a girlfriend OP1 CD cover"
-    />
-    <p></p>
-    <video controls autoplay loop src="video/ocean.mp4"></video>
-    <p></p>
-    Unordered List
-    <ul>
-      <li>List 1</li>
-      <li>
-        List 2
-        <ul>
-          <li>Sub List 1</li>
-          <li>Sub List 2</li>
-          <li>Sub LIst 3</li>
-        </ul>
-      </li>
-      <li>List 3</li>
-      <li>List 4</li>
-    </ul>
-    Ordered List
-    <ol>
-      <li>Step 1</li>
-      <li>Step 2</li>
-      <li>Step 3</li>
-    </ol>
-    Description List
-    <dl>
-      <dt>Term 1</dt>
-      <dd>Description details 1</dd>
-      <dt>Term 2</dt>
-      <dd>Description details 2</dd>
-    </dl>
-    <table>
-      <thead>
-        <tr>
-          <th colspan="2">Expenses</th>
-        </tr>
-        <tr>
-          <th>Category</th>
-          <th>Amount</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Marketing</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>Accounting</td>
-          <td>$200</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <th>Total</th>
-          <th>$300</th>
-        </tr>
-      </tfoot>
-    </table>
-    <div class="product">
-      <p>Product 1</p>
-      <a href="#">Link</a>
-    </div>
-    <div class="product">
-      <p>Product 1</p>
-      <a href="#">Link</a>
-    </div>
-    <p>
-      By <span class="highlight">signing up</span> for the Pre-authorized
-      Payment Plan, your payments will be automatically withdrawn from your
-      chequing account each month. Please note that signing up will apply to
-      your next bill, so you still need to pay your current bill separately.
-      Follow this three-step process to sign up. You'll need your bank account
-      details found on the bottom of your cheque. You can also find these
-      account details at your bank or financial institution online. Simply log
-      into your account and view your account details.
+    <p id="first">
+      As the new school year approaches, remember to register your child in
+      Urban Academy's licensed Out o f School Care (OOSC).
     </p>
-    <article>
-      <head>
-        Heding
-      </head>
-      <p>
-        Published
-        <time datetime="2023-09-06 23:00">September 6 2023 11:00pm</time>
-      </p>
-      <p>
-        By <mark>signing up</mark> for the Pre-authorized Payment Plan, your
-        payments will be automatically withdrawn from your chequing account each
-        month. Please note that signing up will apply to your next bill, so you
-        still need to pay your current bill separately.
-      </p>
-      <figure>
-        <img src="images/1205789.jpg" alt="" />
-        <figcaption>iris</figcaption>
-      </figure>
-    </article>
+    <p>
+      For UA students (up to 12 years old), OOSC is available throughout the
+      year, including winter break, spring break, summer and professional days.
+    </p>
+    <section id="prodcuts">
+      <article class="products"></article>
+      <article class="products"></article>
+      <article class="products"></article>
+    </section>
   </body>
 </html>
